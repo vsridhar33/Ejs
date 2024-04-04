@@ -1,0 +1,15 @@
+<html>
+  <a href="/ProductListingPage">ADD PRODUCT</a>
+  <ul>
+    <% data.forEach((d)=>{ %>
+    <li><%= d.id %></li>
+    <li><%= d.category %></li>
+    <li><%= d.category_type %></li>
+    <li><%= d.is_deleted %></li>
+    <li><%= d.created_at %></li>
+    <li><%= d.updated_at %></li>
+    <li><%= d.category_id %></li>
+    <% }); %>
+  </ul>
+ 
+  </html>
